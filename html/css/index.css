@@ -1,0 +1,65 @@
+body {
+	font-family: sans-serif;
+}
+
+textarea, [type="file"] {
+	background: yellow;
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 1em;
+}
+
+textarea {
+	height: 5em;
+}
+
+canvas, img {
+	image-rendering: pixelated;
+	width: 100%;
+	height: auto;
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAH0lEQVQokWNYtGjRf2w4ISEBK2YYkRpwSeAyaERqAABq/mkwVExPHAAAAABJRU5ErkJggg==') top left repeat;
+}
+
+#main {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+#main > div {
+	border: 1px solid #ccc;
+	background: #eee;
+	padding: 1em;
+	margin: 1ex;
+}
+
+.error {
+	color: white;
+	font-weight: bolder;
+	background: #A00;
+	padding: 1ex;
+}
+
+#cover {
+	display: none;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+#progress {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 200%;
+	color: white;
+}
+
+#controls label, #controls button {
+	display: block;
+	margin: 1ex;
+}

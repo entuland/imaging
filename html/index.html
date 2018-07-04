@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Minetest Imaging Converter</title>
+		<meta charset="utf-8" />
+		<link href="css/index.css" rel="stylesheet">
+		<script src="js/index.js"></script>
+		<script src="js/images.js"></script>
+	</head>
+	<body>
+		<h1>Minetest Imaging Converter</h1>
+		<div id="main">
+			<div>
+				<h2>Image input</h2>
+				<img id="imagePreview">
+				<p>Drag or select the image you want to convert</p>
+				<input id="imageInput" type="file">			
+			</div>
+			<div>
+				<h2>Result preview</h2>
+				<canvas id="resultPreview"></canvas>
+			</div>
+			<div>
+				<h2>Palette input</h2>
+				<img id="palettePreview">
+				<button id="loadVGA">VGA Palette</button>		
+				<button id="loadGrayscale">Grayscale Palette</button>		
+				<button id="loadSepia">Sepia Palette</button>		
+				<p>Drag or select the palette you want to use</p>
+				<input id="paletteInput" type="file">			
+			</div>
+			<div>
+				<h2>Output</h2>
+				<textarea id="output"></textarea>
+				<div id="controls">
+					<label>Dithering <input type="checkbox" id="dithering"></label>
+					<label>Minimum opacity: <input type="number" min="0" max="255" id="minAlpha" step="1" value="255"></label>
+					<button id="execute">Generate imaging data</button>
+				</div>
+			</div>
+		</div>
+		<div id="cover">
+			<div id="progress"></div>
+		</div>
+	</body>
+</html>
