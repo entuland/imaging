@@ -3,7 +3,7 @@ An image / bumpmap importer mod for Minetest
 
 Developed and tested on Minetest 0.4.16 - try in other versions at your own risk :)
 
-WIP mod forum discussion: ...
+WIP mod forum discussion: https://forum.minetest.net/viewtopic.php?f=9&t=20411
 
 **Table of Contents**
 - [Dependencies and Licensing](#dependencies-and-licensing)
@@ -25,7 +25,7 @@ The code is licensed under the [MIT](/LICENSE) license.
 
 Except otherwise specified, all media is licensed as [CC BY SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
 
-[The Minetest Logo screenshot](/screenshots/minetest-logo) is [CC BY SA 3.0 Minetest team](https://github.com/minetest/minetest/blob/master/LICENSE.txt)
+[The Minetest Logo screenshot](/screenshots/minetest-logo.png) is [CC BY SA 3.0 Minetest team](https://github.com/minetest/minetest/blob/master/LICENSE.txt)
 
 [The sardinian girl screenshot](/screenshots/sardinian-girl.png) is [CC BY 2.0 Cristiano Cani](https://www.flickr.com/photos/cristianocani/2457125478/)
 
