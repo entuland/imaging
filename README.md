@@ -52,7 +52,7 @@ The recipe can be customized altering the file `custom.recipes.lua`, created in 
 
 ## Converter
 
-To launch the converter run the `/html/index.html` file contained in the mod folder, you should see something like this:
+To launch the converter open the `/converter.html` file contained in the mod folder with your browser, you should see something like this:
 
 ![Converter](/screenshots/converter.png)
 
